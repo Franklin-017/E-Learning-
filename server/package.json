@@ -1,14 +1,20 @@
 {
-	"dependencies": {
-		"dotenv": "^8.2.0",
-		"express": "^4.17.1",
-		"mongoose": "^5.10.0"
-	},
-	"devDependencies": {
-		"nodemon": "^2.0.4"
-	},
-	"scripts": {
-		"start": "node server.js",
-		"server": "nodemon server.js"
-	}
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Franklin",
+  "license": "MIT",
+  "description": ""
 }
